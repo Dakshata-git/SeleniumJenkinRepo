@@ -1,4 +1,5 @@
 set projectLocation=C:\SeleniumJenkinProject
+cd\
 cd %projectLocation%
-set classpath=%projectLocation%\bin;%projectLocation%\lib\*
-java org.testng.TestNG %projectLocation%\testng.xml
+set classpath=%projectLocation%\bin;%projectLocation%\lib\*;
+java org.testng.TestNG testng.xml
