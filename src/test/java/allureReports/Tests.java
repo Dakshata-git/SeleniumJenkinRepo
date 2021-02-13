@@ -58,6 +58,7 @@ public class Tests extends BaseClass{
 		driver.findElement(By.xpath("//input[@class='button-1 login-button']")).click();
 		Thread.sleep(3000);
 		Assert.assertEquals(driver.getTitle(), "nopCommerce demo store. Login");
+		System.out.println("test");
 
 	}
 		
